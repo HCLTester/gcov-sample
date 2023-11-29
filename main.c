@@ -1,3 +1,4 @@
+/* Test program for coverall report*/
 #include <stdio.h>
 
 #include "foo.h"
