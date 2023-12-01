@@ -9,10 +9,10 @@ main.o: main.c
 	$(CC) $(CFLAG) -c -Wall -Werror main.c
 
 foo.o: ./src/hcltest/src/foo.c
-	$(CC) $(CFLAG) -c -Wall -Werror foo.c
+	$(CC) $(CFLAG) -c -Wall -Werror ./src/hcltest/src/foo.c
 
 test.o: ./src/hcltest/src/test.c
-	$(CC) $(CFLAG) -c -Wall -Werror test.c
+	$(CC) $(CFLAG) -c -Wall -Werror ./src/hcltest/src/test.c
 
 build: main.o foo.o test.o ## Make build
 	$(CC) $(CFLAG) -c -Wall -Werror main.c
