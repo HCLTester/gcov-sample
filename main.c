@@ -1,7 +1,7 @@
 /* Test program for coverall report*/
 #include <stdio.h>
 
-#include "foo.h"
+#include "inst/include/foo.h"
 
 int main(void) {
   printf("Start calling foo() ...\n");

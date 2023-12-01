@@ -8,10 +8,10 @@ help: ## Makefile help
 main.o: main.c
 	$(CC) $(CFLAG) -c -Wall -Werror main.c
 
-foo.o: foo.c
+foo.o: ./src/hcltest/src/foo.c
 	$(CC) $(CFLAG) -c -Wall -Werror foo.c
 
-test.o: test.c
+test.o: ./src/hcltest/src/test.c
 	$(CC) $(CFLAG) -c -Wall -Werror test.c
 
 build: main.o foo.o test.o ## Make build

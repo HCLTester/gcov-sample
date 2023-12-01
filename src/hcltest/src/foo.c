@@ -1,4 +1,6 @@
 #include <stdio.h>
+//#include "../../../inst/include/foo.h"
+#include "/home/rishi/CODE-COVERAGE/sample-coverall/gcov-sample/inst/include/foo.h"
 
 void foo(int num) {
   if (num == 1) {
